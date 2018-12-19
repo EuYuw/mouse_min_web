@@ -1,4 +1,4 @@
-# mouse_min-web #
+# mouse_min_web #
 
 
 ## 安装 ##
