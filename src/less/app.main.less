@@ -1,0 +1,125 @@
+/** main 首页**/
+.header-wrap{
+	position: relative;
+	padding-right: 20px;
+	padding-left: 14px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #19233C;
+	color: #fff;
+}
+.nav-wrap{
+    position: absolute;
+	width: 180px;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: #19233C;
+    .transition (@attr: width);
+}
+.content-wrap{
+	position: absolute;
+    top: 70px;
+    left: 180px;
+    bottom: 0;
+    right: 0;
+}
+.nav-ul-f .nav-title{
+	position: relative;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	cursor: pointer;
+	.transition (@attr: color);
+}
+.toggle-menu{
+	display: none;
+}
+.toggle-menu.spread{
+	background-color: #243663;
+}
+.toggle-menu>li.active,
+.toggle-menu>li:hover{
+	background-color: #534979;
+}
+.toggle-menu>li>.nav-title{
+	padding-left: 30px;
+}
+.nav-title:hover{
+	color: #fff;
+}
+.toggle-item:hover{
+	background-color: #121a2c;
+}
+.toggle-item>.span-icon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: -3px;
+	background-size: 100%;
+}
+.toggle-item:after{
+	content: "";
+	position: absolute;
+	top: 11px;
+	right: 8px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/baseImg/sort_desc.png) no-repeat center center;
+}
+
+.toggle-item.open{
+	background-color: #40a0ff;
+}
+.toggle-item.open:after{
+	background: url(../images/baseImg/sort_asc.png) no-repeat center center;
+} 
+.base-header-wrap{
+	padding: 0 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+}
+.base-oper-wrap{
+	padding: 0 20px 0 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.base-list-wrap{
+	padding: 0 10px;
+	height: calc(~"100% - 90px");
+}
+.tab-ul{
+	border-bottom: 1px solid @ceee;
+}
+.tab-ul>li{
+	position: relative;
+	float: left;
+	padding: 0 10px;
+	.h-line-h(34px);
+	color: @c999;
+	cursor: pointer;
+}
+.tab-ul>li:after{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	right: 50%;
+	height: 2px;
+	background-color: #40a0ff;
+	.transition;
+}
+.tab-ul>li.active{
+	background-color: #fff;
+	color: #000;
+}
+.tab-ul>li.active:after{
+	left: 0;
+	right: 0;
+}

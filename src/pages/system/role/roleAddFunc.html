@@ -1,0 +1,27 @@
+<div class="container bgmask">
+	<div class="window"  style="width: 550px; height: 600px;" id="dialog-func-window">
+		<header>
+			<label>角色添加功能</label>
+			<a class="close close-btn">&times;</a>
+		</header>
+		<main>
+			<form id="dialog-form-func">
+				<div class="base-header-wrap pr" style="padding: 0;">
+						<input type="text" name="name"  class="base-ipt" style="width: 100%;" placeholder="请输入功能名称" />
+						<i class="iconfont icon-search1 srh-icon"></i>
+				</div>
+			</form>
+			<div class="base-list-wrap tran-header" id="dialog-list-func" style="padding: 5px 0 0;height: calc(100% - 40px);"></div>
+		</main>
+		<footer>
+			<div class="form-action">
+				   <button type="button" class="base-btn b-btn" id="save-rolefunc-btn" >保存</button>
+				   <button type="button" class="base-btn r-btn close-btn">取消</button>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<script type="text/javascript">
+app.role.addFunc.init();
+</script>

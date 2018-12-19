@@ -1,0 +1,102 @@
+@win-header-height: 38px;
+.window {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+	max-width: 100%;
+	max-height: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.window header {
+	width: 100%;
+	height: @win-header-height;
+	line-height: @win-header-height;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 14px;
+    background-color: #565656;
+}
+
+.window header>label{
+	font-size: 15px;
+}
+
+.window main {
+	position: relative;
+	padding: 6px 10px;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+}
+
+.window footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	text-align: right;
+	padding: 10px;
+	border-top: 1px solid #dcdcdc;
+	background-color: #f6f6f6;
+}
+
+.window footer > .btn {
+	margin: 0 3px;
+}
+
+.window .content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: auto;
+	margin: 34px 0 0 0;
+	
+	#form-important-search {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-left: 10px;
+		input {
+			width: 250px;
+		}
+		#importantSearch {
+			margin-left: 20px;
+			padding: 0 20px;
+		}
+	}
+}
+
+.window .close {
+	float: right;
+	height: @win-header-height;
+	line-height: 34px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-size: 32px;
+}
+
+.window .close:hover {
+	color: #7ad2fd;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-perspective: 3000;
+	perspective: 3000px;
+}
+
+.bgmask {
+    background: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,110 @@
+{
+	"root": true,
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"ecmaFeatures": {
+			"impliedStrict": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"no-delete-var": "error",
+		"no-console": "off",
+		"block-scoped-var": "error",
+		"curly": "error",
+		"default-case": "error",
+		"dot-notation": "warn",
+		"eqeqeq": "off",
+		"no-alert": "error",
+		"no-div-regex": "error",
+		"no-eq-null": "error",
+		"no-extend-native": "error",
+		"no-floating-decimal": "error",
+		"no-loop-func": "error",
+		"no-multi-spaces": "error",
+		"no-multi-str": "error",
+		"no-new": "error",
+		"no-new-func": "error",
+		"no-new-wrappers": "error",
+		"no-octal-escape": "error",
+		"no-redeclare": [
+			"error",
+			{
+				"builtinGlobals": true
+			}
+		],
+		"no-return-assign": "error",
+		"no-self-compare": "error",
+		"no-unmodified-loop-condition": "error",
+		"no-unused-expressions": "off",
+		"no-useless-escape": "error",
+		"no-label-var": "error",
+		"no-undefined": "error",
+		"no-use-before-define": "error",
+		"array-bracket-spacing": "error",
+		"brace-style": "error",
+		"comma-spacing": "error",
+		"comma-style": "error",
+		"eol-last": "error",
+		"func-call-spacing": "error",
+		// "indent": [
+		// 	"error",
+		// 	"tab"
+		// ],
+		"key-spacing": "error",
+		"keyword-spacing": "error",
+		"linebreak-style": "error",
+		"no-array-constructor": "error",
+		"no-inline-comments": "off",
+		"no-multi-assign": "error",
+		"no-multiple-empty-lines": "error",
+		"no-nested-ternary": "error",
+		"no-new-object": "error",
+		"no-trailing-spaces": "error",
+		"no-unneeded-ternary": "error",
+		"no-whitespace-before-property": "error",
+		"object-property-newline": "error",
+		"one-var": [
+			"error",
+			"never"
+		],
+		"padded-blocks": [
+			"error",
+			"never"
+		],
+		"quotes": [
+			"warn",
+			"single"
+		],
+		"semi": "error",
+		"semi-spacing": "error",
+		"space-before-blocks": "error",
+		"space-before-function-paren": [
+			"error",
+			"never"
+		],
+		"space-in-parens": "error",
+		"space-infix-ops": "error",
+		"space-unary-ops": "error",
+		"spaced-comment": "error"
+	},
+	"globals": {
+		"app": false,
+		"jQuery": false,
+		"$": false,
+		"$m": false,
+		"echarts": false,
+		"ol": false,
+		"SockJS": false,
+		"Stomp": false,
+		"RSAAPP": false,
+		"RSAKeyPair": false,
+		"setMaxDigits": false,
+		"encryptedString": false,
+		"layer":false
+	}
+}

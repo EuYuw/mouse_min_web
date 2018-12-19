@@ -1,0 +1,24 @@
+<!-- header html -->
+<div class="base-header-wrap">
+	<label>角色管理</label>
+</div>
+<!-- oper html -->
+<div class="base-oper-wrap">
+	<div class="search-bar">
+		<button type="button" class="base-btn b-btn" id="add-role"><i class="iconfont">&#xe6e0;</i>新增角色</button>
+	</div>
+	<div class="search-bar fr">
+		<form id="srh-role-form">
+			<div class="pr">
+				<input type="text" class="base-ipt pr-25" name="name" placeholder=""  />
+				<i class="iconfont srh-icon">&#xe741;</i>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- list hmtl -->
+<div class="base-list-wrap" id="list-role"></div>
+
+<script type="text/javascript">
+	app.role.init();
+</script>

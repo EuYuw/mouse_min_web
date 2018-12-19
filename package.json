@@ -1,0 +1,61 @@
+{
+	"name": "xxxx",
+	"version": "1.0.0",
+	"description": "xxxx",
+	"author": "euyuw",
+	"repository": {
+		"type": "svn",
+		"url": ""
+	},
+	"license": "",
+	"scripts": {
+		"dev": "gulp",
+		"release": "gulp release",
+		"lint": "eslint \"src/js/app/**/*.js\"",
+		"format": "gulp format"
+	},
+	"devDependencies": {
+		"eslint": "",
+		"http-proxy-middleware": "",
+		"babel-core": "",
+		"babel-preset-env": "",
+		"grunt-cli": "",
+		"grunt": "",
+		"grunt-contrib-clean": "",
+		"grunt-contrib-compress": "",
+		"grunt-contrib-concat": "",
+		"grunt-contrib-copy": "",
+		"grunt-contrib-csslint": "",
+		"grunt-contrib-cssmin": "",
+		"grunt-contrib-uglify": "",
+		"grunt-contrib-watch": "",
+		"grunt-contrib-connect": "",
+		"grunt-contrib-less": "",
+		"grunt-contrib-htmlmin": "",
+		"grunt-include-replace": "",
+		"grunt-open": "",
+		"grunt-replace": "",
+		"grunt-shell": "",
+		"grunt-jsbeautifier": "",
+		"grunt-babel": "",
+		"gulp-cli": "",
+		"gulp": "",
+		"gulp-rename": "",
+		"gulp-concat": "",
+		"gulp-uglify": "",
+		"gulp-clean-css": "",
+		"gulp-less": "",
+		"gulp-file-include": "",
+		"gulp-htmlmin": "",
+		"gulp-zip": "",
+		"gulp-connect": "",
+		"gulp-open": "",
+		"gulp-jsbeautifier": "",
+		"gulp-babel": "",
+		"del": "",
+		"run-sequence": ""
+	},
+	"dependencies": {
+		"@babel/core": "^7.1.5"
+	}
+}

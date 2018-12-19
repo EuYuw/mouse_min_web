@@ -1,0 +1,135 @@
+@list-table-line-color: #dcdcdc;
+
+.list-table-wrap{
+	max-height: calc(100% - 60px);
+	overflow: auto;
+}
+
+.list-table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid @list-table-line-color;
+}
+
+.list-table th, .list-table td {
+	border-style: solid;
+	border-color: @list-table-line-color;
+	border-top-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.list-table td {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-style: normal;
+	font-size: 13px;
+	color: #292828;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.oper-td{
+	text-align: center;
+}
+
+.col-table tbody tr td:nth-child(even){
+	width: 36%;
+}
+
+.col-table tbody tr td:nth-child(odd){
+	width: 14%;
+	text-align: right;
+}
+
+.list-table > thead > tr {
+	background-color: #565656;
+}
+
+.list-table > thead > tr > th {
+	padding: 4px 6px;
+	color: #fff;
+	font-size: 14px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tran-th.list-table thead tr{
+	background-color: transparent;
+}
+.tran-th.list-table thead tr th{
+	color: #000;
+}
+.list-table > thead > tr > th.sort {
+	cursor: pointer;
+	background: url(../images/baseImg/sort_both.png) center right no-repeat;
+}
+
+.list-table > thead > tr > th.sort.asc {
+	background: url(../images/baseImg/sort_asc.png) center right no-repeat;
+}
+
+.list-table > thead > tr > th.sort.desc {
+	background: url(../images/baseImg/sort_desc.png) center right no-repeat;
+}
+
+.list-table > tbody > tr:nth-child(even){
+	background-color: #f8f8f8;
+}
+
+.list-table > tbody > tr:nth-child(odd){
+	background-color: #fbfdfd;
+}
+
+.list-table > tbody > tr > td.list-table-empty {
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+}
+
+.list-table .oper-href{
+	margin: 0 3px;
+}
+
+.list-table input[readonly]{
+	background-color: transparent;
+	border: none;
+	box-shadow: none !important;
+	cursor: default;
+}
+
+.list-empty {
+	padding: 40px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.oper-btn{
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-left: 4px;
+	padding-right: 4px;
+	min-width: 68px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	.border-radius;
+}
+
+.subscript-btn{
+	background-color: #1abd9b;
+}
+
+.browse-btn{
+	background-color: #40a0ff;
+}
+
+

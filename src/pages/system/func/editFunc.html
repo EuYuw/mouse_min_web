@@ -1,0 +1,39 @@
+<div class="container bgmask">
+	<div class="window"  style="width: 580px; height: 225px;" id="func-window">
+		<header>
+			<label>编辑功能</label>
+			<a class="close close-btn">&times;</a>
+		</header>
+		<main>
+			<form class="form-bs" id="form-func">
+				<input type="hidden" name="id" />
+				<table class="list-table col-table">
+					<tbody>
+						<tr>
+							<td>功能名称*</td>
+							<td><input type="text" name="name" class="base-ipt" data-dzck="notnull" data-emsg="功能名称不能为空"  maxlength="16"/></td>
+						</tr>
+						<tr>
+							<td>功能编码*</td>
+							<td><input type="text" name="code" class="base-ipt" data-dzck="notnull" data-emsg="功能编码不能为空" maxlength="16" /></td>
+						</tr>
+						<tr>
+							<td>功能描述</td>
+							<td><input type="text" name="description" class="base-ipt" maxlength="100" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</main>
+		<footer>
+			<div class="form-action">
+				   <button type="button" class="base-btn b-btn" id="funcedit-save-btn" >保存</button>
+				   <button type="button" class="base-btn r-btn close-btn">取消</button>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<script type="text/javascript">
+app.func.edit.init();
+</script>

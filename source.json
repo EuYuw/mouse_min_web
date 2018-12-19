@@ -1,0 +1,92 @@
+{
+	"libs": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/libs/jquery-3.2.0.js",
+			"src/js/libs/mouse.min-0.0.16.js",
+			"src/js/libs/select2-4.0.3.js",
+			"src/js/libs/sockjs-1.1.2.js",
+			"src/js/libs/stomp-1.7.1.js",
+			"src/js/libs/swiper-3.4.2.js",
+			"src/js/libs/query-builder/doT.min.js",
+			"src/js/libs/query-builder/jQuery.extendext.min.js",
+			"src/js/libs/query-builder/query-builder.js",
+			"src/js/libs/query-builder/bootstrap-datepicker.min.js",
+			"src/js/libs/jquery.ztree.core.min.js"
+		],
+		"cssFiles": [
+			"src/css/mouse.min-0.0.16.css",
+			"src/css/select2-4.0.3.css",
+			"src/css/animate-3.5.1.css",
+			"src/css/swiper-3.4.2.css",
+			"src/css/query-builder.css",
+			"src/css/bootstrap-datepicker.min.css",
+			"src/css/zTreeStyle.css"
+		]
+	},
+	"echarts": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/libs/echarts-3.5.2.js",
+			"src/js/libs/echarts-map/world.js",
+			"src/js/libs/echarts-map/china.js",
+			"src/js/libs/echarts-map/liaoning.js"
+		]
+	},
+	"openlayers": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/libs/ol.min-4.1.0.js"
+		],
+		"cssFiles": [
+			"src/css/ol.min-4.1.0.css"
+		]
+	},
+	"fileupload": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/libs/fileupload-9.18.0/jquery.ui.widget.js",
+			"src/js/libs/fileupload-9.18.0/load-image.all.min.js",
+			"src/js/libs/fileupload-9.18.0/canvas-to-blob.min.js",
+			"src/js/libs/fileupload-9.18.0/jquery.iframe-transport.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload-process.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload-validate.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload-image.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload-video.js",
+			"src/js/libs/fileupload-9.18.0/jquery.fileupload-audio.js"
+		],
+		"cssFiles": [
+			"src/css/jquery.fileupload-9.18.0.css"
+		]
+	},
+	"layer": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/libs/layer-3.0.3.js"
+		],
+		"cssFiles": [
+			"src/css/layer-3.0.3.css"
+		]
+	},
+	"app": {
+		"version": "1.0.0",
+		"jsFiles": [
+			"src/js/app/app.js",
+			"src/js/app/app.main.js",
+			"src/js/app/api/app.api.js",
+			"src/js/app/api/app.api.*.js",
+			"src/js/app/common/app.*.js",
+			"src/js/app/home/app.home.js",
+			"src/js/app/home/app.home.*.js",
+			"src/js/app/system/user/app.user.js",
+			"src/js/app/system/user/app.user.*.js",
+			
+			
+			"src/js/app/app.entry.js"
+		],
+		"lessFiles": [
+			"src/less/app.less"
+		]
+	}
+}

@@ -1,0 +1,56 @@
+<!-- main html -->
+
+<!-- header html -->
+<div class="header-wrap" id="header-wrap">
+	<div class="fl">基础架构</div>
+	<div class="pr fr" id="l-oper-bar">
+		<label id="curun">admin</label>
+		<span class="desc-s"><img src="../images/baseImg/sort_desc.png"></span>
+		<ul class="l-oper-ul">
+			<li data-oper="lgout">退出</li>
+		</ul>
+	</div>
+</div>
+
+<!-- nav html -->
+<div class="nav-wrap" id="nav-wrap">
+</div>
+
+<!-- content html -->
+<div class="content-wrap" id="container">
+</div>
+<style>
+	#curun{
+		color: #fff;
+	}
+	.desc-s{
+		vertical-align: 1px; 
+		cursor: pointer;
+	}
+	.l-oper-ul{
+		display: none;
+		position: absolute;
+		top: 50px;
+    	left: -30px;
+		z-index: 9999;    	
+		border: 1px solid rgba(0,0,0,.3);
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+   		box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
+	.l-oper-ul>li{
+		padding-left: 16px;
+		margin: 2px 0;
+		width: 100px;
+		height: 32px;
+		line-height: 32px;
+		cursor: pointer;
+		background-color: #fff; 
+		color: #1a4f85;
+	}
+	.l-oper-ul>li:hover{
+		background-color: #eee; 
+	}
+</style>
+<script type="text/javascript">
+	app.home.init();
+</script>
